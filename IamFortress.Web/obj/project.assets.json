@@ -1,0 +1,139 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "IamFortress.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "IamFortress.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/IamFortress.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/IamFortress.Application.dll": {}
+        }
+      },
+      "IamFortress.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/IamFortress.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/IamFortress.Domain.dll": {}
+        }
+      },
+      "IamFortress.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "IamFortress.Application": "1.0.0",
+          "IamFortress.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/IamFortress.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/IamFortress.Infrastructure.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "IamFortress.Application/1.0.0": {
+      "type": "project",
+      "path": "../IamFortress.Application/IamFortress.Application.csproj",
+      "msbuildProject": "../IamFortress.Application/IamFortress.Application.csproj"
+    },
+    "IamFortress.Domain/1.0.0": {
+      "type": "project",
+      "path": "../IamFortress.Domain/IamFortress.Domain.csproj",
+      "msbuildProject": "../IamFortress.Domain/IamFortress.Domain.csproj"
+    },
+    "IamFortress.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../IamFortress.Infrastructure/IamFortress.Infrastructure.csproj",
+      "msbuildProject": "../IamFortress.Infrastructure/IamFortress.Infrastructure.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "IamFortress.Application >= 1.0.0",
+      "IamFortress.Infrastructure >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/home/ramedani/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/home/ramedani/RiderProjects/ClassLibrary1/IamFortress.Web/IamFortress.Web.csproj",
+      "projectName": "IamFortress.Web",
+      "projectPath": "/home/ramedani/RiderProjects/ClassLibrary1/IamFortress.Web/IamFortress.Web.csproj",
+      "packagesPath": "/home/ramedani/.nuget/packages/",
+      "outputPath": "/home/ramedani/RiderProjects/ClassLibrary1/IamFortress.Web/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/home/ramedani/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {
+            "/home/ramedani/RiderProjects/ClassLibrary1/IamFortress.Application/IamFortress.Application.csproj": {
+              "projectPath": "/home/ramedani/RiderProjects/ClassLibrary1/IamFortress.Application/IamFortress.Application.csproj"
+            },
+            "/home/ramedani/RiderProjects/ClassLibrary1/IamFortress.Infrastructure/IamFortress.Infrastructure.csproj": {
+              "projectPath": "/home/ramedani/RiderProjects/ClassLibrary1/IamFortress.Infrastructure/IamFortress.Infrastructure.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[7.0.20, 7.0.20]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.120/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
