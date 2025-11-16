@@ -8,4 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = IamFortress.Application
-build_property.ProjectDir = /home/ramedani/RiderProjects/ClassLibrary1/IamFortress.Application/
+build_property.ProjectDir = C:\Users\aQamm\Source\Repos\sooprano\IamFortress.Application\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

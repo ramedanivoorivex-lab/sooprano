@@ -1,33 +1,36 @@
 {
   "format": 1,
   "restore": {
-    "/home/ramedani/RiderProjects/ClassLibrary1/IamFortress.Application/IamFortress.Application.csproj": {}
+    "C:\\Users\\aQamm\\Source\\Repos\\sooprano\\IamFortress.Application\\IamFortress.Application.csproj": {}
   },
   "projects": {
-    "/home/ramedani/RiderProjects/ClassLibrary1/IamFortress.Application/IamFortress.Application.csproj": {
+    "C:\\Users\\aQamm\\Source\\Repos\\sooprano\\IamFortress.Application\\IamFortress.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/ramedani/RiderProjects/ClassLibrary1/IamFortress.Application/IamFortress.Application.csproj",
+        "projectUniqueName": "C:\\Users\\aQamm\\Source\\Repos\\sooprano\\IamFortress.Application\\IamFortress.Application.csproj",
         "projectName": "IamFortress.Application",
-        "projectPath": "/home/ramedani/RiderProjects/ClassLibrary1/IamFortress.Application/IamFortress.Application.csproj",
-        "packagesPath": "/home/ramedani/.nuget/packages/",
-        "outputPath": "/home/ramedani/RiderProjects/ClassLibrary1/IamFortress.Application/obj/",
+        "projectPath": "C:\\Users\\aQamm\\Source\\Repos\\sooprano\\IamFortress.Application\\IamFortress.Application.csproj",
+        "packagesPath": "C:\\Users\\aQamm\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\aQamm\\Source\\Repos\\sooprano\\IamFortress.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/ramedani/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\aQamm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "/home/ramedani/RiderProjects/ClassLibrary1/IamFortress.Domain/IamFortress.Domain.csproj": {
-                "projectPath": "/home/ramedani/RiderProjects/ClassLibrary1/IamFortress.Domain/IamFortress.Domain.csproj"
+              "C:\\Users\\aQamm\\Source\\Repos\\sooprano\\IamFortress.Domain\\IamFortress.Domain.csproj": {
+                "projectPath": "C:\\Users\\aQamm\\Source\\Repos\\sooprano\\IamFortress.Domain\\IamFortress.Domain.csproj"
               }
             }
           }
@@ -36,6 +39,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -52,37 +60,34 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[7.0.20, 7.0.20]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.120/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/ramedani/RiderProjects/ClassLibrary1/IamFortress.Domain/IamFortress.Domain.csproj": {
+    "C:\\Users\\aQamm\\Source\\Repos\\sooprano\\IamFortress.Domain\\IamFortress.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/ramedani/RiderProjects/ClassLibrary1/IamFortress.Domain/IamFortress.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\aQamm\\Source\\Repos\\sooprano\\IamFortress.Domain\\IamFortress.Domain.csproj",
         "projectName": "IamFortress.Domain",
-        "projectPath": "/home/ramedani/RiderProjects/ClassLibrary1/IamFortress.Domain/IamFortress.Domain.csproj",
-        "packagesPath": "/home/ramedani/.nuget/packages/",
-        "outputPath": "/home/ramedani/RiderProjects/ClassLibrary1/IamFortress.Domain/obj/",
+        "projectPath": "C:\\Users\\aQamm\\Source\\Repos\\sooprano\\IamFortress.Domain\\IamFortress.Domain.csproj",
+        "packagesPath": "C:\\Users\\aQamm\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\aQamm\\Source\\Repos\\sooprano\\IamFortress.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/ramedani/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\aQamm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -95,6 +100,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -111,18 +121,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[7.0.20, 7.0.20]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.120/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

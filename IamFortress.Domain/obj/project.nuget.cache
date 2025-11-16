@@ -1,10 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eky+JZBkypw=",
+  "dgSpecHash": "R1vn8DHwdMY=",
   "success": true,
-  "projectFilePath": "/home/ramedani/RiderProjects/ClassLibrary1/IamFortress.Domain/IamFortress.Domain.csproj",
-  "expectedPackageFiles": [
-    "/home/ramedani/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.20/microsoft.aspnetcore.app.ref.7.0.20.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\aQamm\\Source\\Repos\\sooprano\\IamFortress.Domain\\IamFortress.Domain.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }
